@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root{
+  --background: #05161C;
+}
+
+@theme{
+  --color-green: #05161C;
+  --color-dAqua: #4599B0;
+  --color-lAqua: #2AABEE;
+  --color-dark: #000000;
+  --font-mont: 'Montserrat', sans-serif;
+}
+@layer base {
+  h1{
+    @apply text-4xl/snug md:text-[45px] text-center font-mono font-semibold md:w-[90%] w-full;
+  }
+  p{
+    @apply font-mono text-lg text-center w-[80%]
+  }
+  input{
+    @apply border-none outline-none
+  }
+  label{
+    @apply flex gap-2 bg-white/20 backdrop-blur-md border border-white/30 rounded-lg py-3 px-3
+  }
+  
+}
+
+@layer component{
+  .btn{
+    @apply bg-dAqua rounded-lg py-3 font-mono cursor-pointer
+  }
+}
+
+body{
+  /* background-image: url('./public/bg.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+  background: var(--background);
+}
