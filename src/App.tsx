@@ -92,10 +92,10 @@ function App() {
         <div className='flex flex-col items-center w-full md:w-[550px] gap-10'>
           <p className='text-sm'>We're are building Loopera in public. Follow our journey. Connect with the community, and never miss an update.</p>
           <div className='flex gap-10'>
-            <a href="">
+            <a href="https://x.com/LooperaJob?t=XRdVeN0dbWEDCCu2_uLiag&s=09">
               <img src={twitterLink} alt="a twitter link" />
             </a>
-            <a href="">
+            <a href="https://t.me/+TT779I_I8fs4MGZk">
               <img src={telegramLink} alt="a telegram link" />
             </a>
             
